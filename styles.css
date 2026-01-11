@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #7ba3d0 0%, #8ab4dd 50%, #7ba3d0 100%);
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    margin: auto;
+    overflow: hidden;
+}
+.header {
+    
+    color: #0f0f0f;
+    padding: 20px 0;
+    text-align: center;
+} 
+.profile-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 6px solid #333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.tagline {
+    font-style: italic;
+    color: #666;
+}
+.about {
+    margin: 15px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid #333;
+    transition: all 0.3s ease;
+}
+.about:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+}
+.skills {
+    margin: 15px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid #333;
+    transition: all 0.3s ease;
+}
+.skill-list {
+
+    overflow: hidden;
+
+}
+.skills:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+}
+.contact {
+    margin: 15px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid #333;
+    transition: all 0.3s ease;
+}
+.contact:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+}
