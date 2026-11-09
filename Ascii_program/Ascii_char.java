@@ -8,12 +8,10 @@ public class Ascii_char {
 	  String input=sc.next();
 	  Ascii(input);
 	  sc.close();
-
 	}
 	public static void Ascii(String Asciichar) {
 		char character=Asciichar.charAt(0);
 		System.out.println(+character);
-		
 	}
 
 }
