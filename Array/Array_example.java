@@ -1,7 +1,6 @@
 package Array;
 import java.util.Scanner;
 public class Array_example {
-
 	public static void main(String[] args) {
 		Scanner Sc=new Scanner(System.in);
 		System.out.print("Enter the size of an elements:");
@@ -15,7 +14,5 @@ public class Array_example {
 		for(int i=0;i<Size;i++) {
 			System.out.print(arr[i]);
 		}
-      
 	}
-
 }
