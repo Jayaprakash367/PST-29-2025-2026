@@ -1,10 +1,7 @@
 package Type_Conversion;
-
 import java.util.Scanner;
-
 public class Covert_integer_to_string_without_buid_in_function {
-	public static void main(String[]arg) {
-		
+	public static void main(String[]arg) {	
 		convert.method2();
 		}
 	}
