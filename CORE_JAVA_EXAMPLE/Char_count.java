@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Char_count {
       public static void main(String[] args) {
     	 Scanner sc=new Scanner(System.in);
-    	 System.out.print("Enter the String :");
+    	 System.out.print("Enter the name :");
     	 String str=sc.next();
          int count=0;
          for(int i=0;i<str.length();i++) {
